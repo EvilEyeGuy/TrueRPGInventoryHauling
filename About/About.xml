@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>EvilEyeGuy.RPGInventoryHauling</packageId>
+  <name>True RPG Hauling</name>
+  <author>EvilEyeGuy</author>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>astryl.truerpginventory</li>
+    <li>astryl.truerpgbackpacks</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>Mehni.PickUpAndHaul</li>
+    <li>Uuugggg.BuildFromInventory</li>
+    <li>sugarcube.puahsharedstorage</li>
+  </incompatibleWith>
+  <description>Pawns collect several items into their inventory in one trip and unload them into storage afterwards. Builders use materials from their own inventory and, if needed, from the inventories of other colonists. Replaces Pick Up And Haul, Build From Inventory and Pick Up And Haul - Shared Storage Access.
+
+Made for True RPG Inventory: trips respect the inventory grid and the backpack. Works without it, then only weight counts.
+
+Combat Extended: trips respect weight and bulk, and loadouts do not throw hauled items away as excess.
+
+Hauling
+- One trip collects nearby items of any kind, plans storage space for each stack and walks the shortest route.
+- Mixed loads go to different stockpiles, shelves and containers in one trip.
+- If the inventory is full, the rest of the last stack is carried in the hands.
+- After a trip the pawn takes more items nearby before unloading.
+- Unloading goes to the nearest storage first. Without any fitting storage the item is dropped.
+- Haul urgently from Allow Tool is respected, raw food is not collected for hoppers.
+- Hauled items get a gold frame in the True RPG Inventory grid, are tinted in the vanilla gear tab and are not dropped by the inventory cleanup.
+- Optional: corpses into the inventory, animals and mechanoids hauling with their inventory.
+
+Shared storage
+- Storage buildings with several stacks per cell accept several haulers at once, one per free stack, up to 32.
+- Two pawns never merge stacks into the same shared cell at the same time.
+
+Building
+- Builders use fitting materials from their own inventory first.
+- If the map has none, they take them from the inventories of other colonists.
+- For large construction sites a builder loads several stacks into the inventory and the hands, then delivers everything on site. Materials a hauler already carries go to construction first instead of back to storage.
+
+Carried supplies
+- A new Food column in the Assign tab, next to the vanilla medicine column: pick a meal and how many a pawn always keeps in the inventory, up to 5. All meals and survival packs are recognised, modded ones included.
+- Missing items are restocked by the vanilla restocking job. They take real space in the inventory grid and are never unloaded into storage by hauling.
+
+Storage limits
+- A Limits button in every storage tab sets a maximum amount per item type and a refill threshold, for single items, whole categories or all items.
+- With a refill threshold, haulers only bring more once the stock has dropped to that value, then fill up to the maximum.
+- Applies to all hauling, vanilla included. Items on the way to a storage count against its limit, so several haulers do not overfill it.
+- Each storage is counted at most once per tick, and full storages are skipped as a whole during storage searches.
+
+Performance
+- No work per tick. Trip planning only looks at items near the first one and caps the expensive storage searches per trip.
+
+Safe to add to an ongoing save. Remove Pick Up And Haul, Build From Inventory and Shared Storage Access first.</description>
+</ModMetaData>

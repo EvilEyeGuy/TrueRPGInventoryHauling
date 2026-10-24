@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <InventoryStockGroupDef>
+    <defName>RIH_Meals</defName>
+    <label>food</label>
+    <thingDefs>
+      <li>MealSimple</li>
+      <li>MealSurvivalPack</li>
+    </thingDefs>
+    <defaultThingDef>MealSimple</defaultThingDef>
+    <min>0</min>
+    <max>5</max>
+  </InventoryStockGroupDef>
+
+  <PawnColumnDef>
+    <defName>RIH_CarryMeals</defName>
+    <label>food</label>
+    <headerTip>How many meals this pawn keeps in the inventory. Missing meals are restocked from storage.</headerTip>
+    <workerClass>RPGInventoryHauling.PawnColumnWorker_CarryGroup</workerClass>
+    <sortable>true</sortable>
+    <modExtensions>
+      <li Class="RPGInventoryHauling.StockGroupExtension">
+        <group>RIH_Meals</group>
+      </li>
+    </modExtensions>
+  </PawnColumnDef>
+</Defs>

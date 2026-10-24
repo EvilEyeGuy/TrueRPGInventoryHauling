@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_HaulToInventory.reportString>sammelt TargetA ein.</RIH_HaulToInventory.reportString>
+  <RIH_UnloadInventory.reportString>lädt eingesammelte Gegenstände aus.</RIH_UnloadInventory.reportString>
+  <RIH_LoadForConstruction.reportString>lädt TargetA für den Bau.</RIH_LoadForConstruction.reportString>
+  <RIH_DeliverCargo.reportString>liefert TargetA an TargetB.</RIH_DeliverCargo.reportString>
+</LanguageData>

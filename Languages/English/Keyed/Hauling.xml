@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_SettingsCategory>True RPG Hauling</RIH_SettingsCategory>
+  <RIH_AllowCorpses>Put corpses into the inventory</RIH_AllowCorpses>
+  <RIH_AllowCorpsesTip>Off by default. Corpses are then carried in the hands as in vanilla.</RIH_AllowCorpsesTip>
+  <RIH_AllowAnimals>Tamed animals haul with their inventory</RIH_AllowAnimals>
+  <RIH_AllowAnimalsTip>Pack animals that are allowed to haul use their inventory.</RIH_AllowAnimalsTip>
+  <RIH_AllowMechanoids>Mechanoids haul with their inventory</RIH_AllowMechanoids>
+  <RIH_AllowMechanoidsTip>Hauling mechanoids use their inventory.</RIH_AllowMechanoidsTip>
+  <RIH_MinimumFreeCapacity>Minimum free carrying capacity: {0}%</RIH_MinimumFreeCapacity>
+  <RIH_MinimumFreeCapacityTip>Pawns whose worn gear leaves less free capacity than this haul in their hands as in vanilla.</RIH_MinimumFreeCapacityTip>
+  <RIH_MaxStacksPerTrip>Stacks per trip at most: {0}</RIH_MaxStacksPerTrip>
+  <RIH_MaxStacksPerTripTip>Upper limit for how many separate stacks one trip collects. Weight and the inventory grid still apply.</RIH_MaxStacksPerTripTip>
+  <RIH_SharedStorage>Several haulers share storage that holds many stacks per cell</RIH_SharedStorage>
+  <RIH_SharedStorageTip>Shelves, cellars and other buildings with more than one stack per cell accept as many haulers at once as they have free stacks, up to 32.</RIH_SharedStorageTip>
+  <RIH_BuildFromInventory>Build with materials from the own inventory</RIH_BuildFromInventory>
+  <RIH_BuildFromInventoryTip>A builder first uses fitting materials they carry. Food, drugs and medicine only count if they were hauled.</RIH_BuildFromInventoryTip>
+  <RIH_BuildFromOtherInventories>Take materials from the inventories of other colonists</RIH_BuildFromOtherInventories>
+  <RIH_BuildFromOtherInventoriesTip>If nothing lies on the map, builders take materials out of the inventories of other colonists.</RIH_BuildFromOtherInventoriesTip>
+  <RIH_LoadForConstruction>Load several stacks for large construction sites</RIH_LoadForConstruction>
+  <RIH_LoadForConstructionTip>When a construction site needs more than one stack, the builder fills the inventory and the hands before walking over, then delivers everything on site.</RIH_LoadForConstructionTip>
+  <RIH_HighlightHauled>Highlight hauled items in the gear tab</RIH_HighlightHauled>
+  <RIH_HighlightHauledTip>Gold frame in the True RPG Inventory grid and tinted drop button in the vanilla gear tab for items that will be unloaded into storage.</RIH_HighlightHauledTip>
+</LanguageData>

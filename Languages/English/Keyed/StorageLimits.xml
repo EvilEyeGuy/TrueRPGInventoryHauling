@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_LimitsButton>Limits</RIH_LimitsButton>
+  <RIH_LimitsButtonCount>Limits ({0})</RIH_LimitsButtonCount>
+  <RIH_LimitsButtonTip>Set maximum amounts per item and refill thresholds for this storage.</RIH_LimitsButtonTip>
+  <RIH_LimitsTitle>Storage limits: {0}</RIH_LimitsTitle>
+  <RIH_LimitsExplain>An empty field means no limit. Every limit applies per item type, also for categories and for "All items". An item uses its own entry, otherwise the nearest category, otherwise "All items". With "Refill at", pawns only bring more once the stock has dropped to that value, then fill up to the maximum. Items already above the limit stay where they are.</RIH_LimitsExplain>
+  <RIH_LimitsAll>All items</RIH_LimitsAll>
+  <RIH_LimitsNow>Now</RIH_LimitsNow>
+  <RIH_LimitsMax>Maximum</RIH_LimitsMax>
+  <RIH_LimitsRefill>Refill at</RIH_LimitsRefill>
+  <RIH_LimitsCategory>{0} (category)</RIH_LimitsCategory>
+  <RIH_LimitsAdd>+ Item / category</RIH_LimitsAdd>
+  <RIH_LimitsRemove>Remove entry</RIH_LimitsRemove>
+  <RIH_LimitsRefillTooHigh>"Refill at" is not below the maximum.</RIH_LimitsRefillTooHigh>
+  <RIH_LimitsNoLimitTip>Without values this entry has no limit, even if a category or "All items" has one.</RIH_LimitsNoLimitTip>
+  <RIH_LimitsPickTitle>Choose item or category</RIH_LimitsPickTitle>
+  <RIH_LimitsNothingFound>Nothing found.</RIH_LimitsNothingFound>
+</LanguageData>

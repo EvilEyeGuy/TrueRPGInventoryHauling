@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_CarryMeals.label>Essen</RIH_CarryMeals.label>
+  <RIH_CarryMeals.headerTip>Wie viele Mahlzeiten dieser Pawn im Inventar behält. Fehlende werden aus dem Lager nachgefüllt.</RIH_CarryMeals.headerTip>
+</LanguageData>

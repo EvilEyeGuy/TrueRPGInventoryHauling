@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>RIH_DeliverCargoGiver</defName>
+    <label>deliver carried materials to construction</label>
+    <giverClass>RPGInventoryHauling.WorkGiver_DeliverCargo</giverClass>
+    <workType>Hauling</workType>
+    <verb>deliver</verb>
+    <gerund>delivering</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>RIH_UnloadInventoryGiver</defName>
+    <label>unload hauled inventory</label>
+    <giverClass>RPGInventoryHauling.WorkGiver_UnloadInventory</giverClass>
+    <workType>Hauling</workType>
+    <verb>unload</verb>
+    <gerund>unloading</gerund>
+    <priorityInType>19</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>RIH_HaulToInventoryGiver</defName>
+    <label>haul things in inventory</label>
+    <giverClass>RPGInventoryHauling.WorkGiver_HaulToInventory</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul</verb>
+    <gerund>hauling</gerund>
+    <priorityInType>18</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <JobDef>
+    <defName>RIH_HaulToInventory</defName>
+    <driverClass>RPGInventoryHauling.JobDriver_HaulToInventory</driverClass>
+    <reportString>gathering TargetA.</reportString>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <casualInterruptible>false</casualInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>RIH_UnloadInventory</defName>
+    <driverClass>RPGInventoryHauling.JobDriver_UnloadInventory</driverClass>
+    <reportString>unloading hauled items.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <casualInterruptible>false</casualInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
+  <JobDef>
+    <defName>RIH_LoadForConstruction</defName>
+    <driverClass>RPGInventoryHauling.JobDriver_HaulToInventory</driverClass>
+    <reportString>loading TargetA for construction.</reportString>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <casualInterruptible>false</casualInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>RIH_DeliverCargo</defName>
+    <driverClass>JobDriver_HaulToContainer</driverClass>
+    <reportString>delivering TargetA to TargetB.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <suspendable>false</suspendable>
+  </JobDef>
+</Defs>

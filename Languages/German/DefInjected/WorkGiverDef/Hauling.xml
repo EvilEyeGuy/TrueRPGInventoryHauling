@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_UnloadInventoryGiver.label>eingesammeltes Inventar ausladen</RIH_UnloadInventoryGiver.label>
+  <RIH_UnloadInventoryGiver.verb>ausladen</RIH_UnloadInventoryGiver.verb>
+  <RIH_UnloadInventoryGiver.gerund>lädt aus</RIH_UnloadInventoryGiver.gerund>
+  <RIH_HaulToInventoryGiver.label>Dinge im Inventar schleppen</RIH_HaulToInventoryGiver.label>
+  <RIH_HaulToInventoryGiver.verb>schleppen</RIH_HaulToInventoryGiver.verb>
+  <RIH_HaulToInventoryGiver.gerund>schleppt</RIH_HaulToInventoryGiver.gerund>
+  <RIH_DeliverCargoGiver.label>mitgeführtes Material an Baustellen liefern</RIH_DeliverCargoGiver.label>
+  <RIH_DeliverCargoGiver.verb>liefern</RIH_DeliverCargoGiver.verb>
+  <RIH_DeliverCargoGiver.gerund>liefert</RIH_DeliverCargoGiver.gerund>
+</LanguageData>

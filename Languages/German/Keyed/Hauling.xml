@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_SettingsCategory>True RPG Hauling</RIH_SettingsCategory>
+  <RIH_AllowCorpses>Leichen ins Inventar packen</RIH_AllowCorpses>
+  <RIH_AllowCorpsesTip>Standardmäßig aus. Leichen werden dann wie in Vanilla in den Händen getragen.</RIH_AllowCorpsesTip>
+  <RIH_AllowAnimals>Zahme Tiere schleppen mit ihrem Inventar</RIH_AllowAnimals>
+  <RIH_AllowAnimalsTip>Lasttiere, die schleppen dürfen, nutzen ihr Inventar.</RIH_AllowAnimalsTip>
+  <RIH_AllowMechanoids>Mechanoiden schleppen mit ihrem Inventar</RIH_AllowMechanoids>
+  <RIH_AllowMechanoidsTip>Schleppende Mechanoiden nutzen ihr Inventar.</RIH_AllowMechanoidsTip>
+  <RIH_MinimumFreeCapacity>Mindestens freie Tragkraft: {0} %</RIH_MinimumFreeCapacity>
+  <RIH_MinimumFreeCapacityTip>Wer durch getragene Ausrüstung weniger freie Tragkraft hat, schleppt wie in Vanilla in den Händen.</RIH_MinimumFreeCapacityTip>
+  <RIH_MaxStacksPerTrip>Höchstens Stapel pro Gang: {0}</RIH_MaxStacksPerTrip>
+  <RIH_MaxStacksPerTripTip>Obergrenze, wie viele einzelne Stapel ein Gang einsammelt. Gewicht und Inventar-Grid gelten weiterhin.</RIH_MaxStacksPerTripTip>
+  <RIH_SharedStorage>Mehrere Träger teilen sich Lager mit mehreren Stapeln pro Feld</RIH_SharedStorage>
+  <RIH_SharedStorageTip>Regale, Keller und andere Gebäude mit mehr als einem Stapel pro Feld nehmen so viele Träger gleichzeitig an, wie sie freie Stapel haben, höchstens 32.</RIH_SharedStorageTip>
+  <RIH_BuildFromInventory>Mit Material aus dem eigenen Inventar bauen</RIH_BuildFromInventory>
+  <RIH_BuildFromInventoryTip>Bauarbeiter nehmen zuerst passendes Material, das sie selbst tragen. Essen, Drogen und Medizin zählen nur, wenn sie eingesammelt wurden.</RIH_BuildFromInventoryTip>
+  <RIH_BuildFromOtherInventories>Material aus dem Inventar anderer Kolonisten holen</RIH_BuildFromOtherInventories>
+  <RIH_BuildFromOtherInventoriesTip>Liegt auf der Karte nichts, holen Bauarbeiter Material aus dem Inventar anderer Kolonisten.</RIH_BuildFromOtherInventoriesTip>
+  <RIH_LoadForConstruction>Für große Baustellen mehrere Stapel laden</RIH_LoadForConstruction>
+  <RIH_LoadForConstructionTip>Braucht eine Baustelle mehr als einen Stapel, füllt der Träger Inventar und Hände, bevor er losgeht, und liefert dann alles vor Ort ab.</RIH_LoadForConstructionTip>
+  <RIH_HighlightHauled>Eingesammelte Gegenstände im Ausrüstungs-Tab markieren</RIH_HighlightHauled>
+  <RIH_HighlightHauledTip>Goldener Rahmen im Grid von True RPG Inventory und gefärbter Ablegen-Knopf im Vanilla-Ausrüstungs-Tab für Gegenstände, die ins Lager gebracht werden.</RIH_HighlightHauledTip>
+</LanguageData>

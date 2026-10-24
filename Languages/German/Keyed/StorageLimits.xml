@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIH_LimitsButton>Grenzen</RIH_LimitsButton>
+  <RIH_LimitsButtonCount>Grenzen ({0})</RIH_LimitsButtonCount>
+  <RIH_LimitsButtonTip>Höchstmengen je Gegenstand und Auffüllschwellen für dieses Lager festlegen.</RIH_LimitsButtonTip>
+  <RIH_LimitsTitle>Lagergrenzen: {0}</RIH_LimitsTitle>
+  <RIH_LimitsExplain>Leeres Feld heißt ohne Grenze. Jede Grenze gilt je Gegenstandsart, auch bei Kategorien und bei „Alle Gegenstände“. Ein Gegenstand nutzt seinen eigenen Eintrag, sonst die nächste Kategorie, sonst „Alle Gegenstände“. Mit „Auffüllen ab“ bringen Pawns erst Nachschub, wenn der Bestand auf diesen Wert gefallen ist, und füllen dann bis zur Höchstmenge auf. Was schon über der Grenze liegt, bleibt liegen.</RIH_LimitsExplain>
+  <RIH_LimitsAll>Alle Gegenstände</RIH_LimitsAll>
+  <RIH_LimitsNow>Jetzt</RIH_LimitsNow>
+  <RIH_LimitsMax>Höchstens</RIH_LimitsMax>
+  <RIH_LimitsRefill>Auffüllen ab</RIH_LimitsRefill>
+  <RIH_LimitsCategory>{0} (Kategorie)</RIH_LimitsCategory>
+  <RIH_LimitsAdd>+ Gegenstand / Kategorie</RIH_LimitsAdd>
+  <RIH_LimitsRemove>Eintrag entfernen</RIH_LimitsRemove>
+  <RIH_LimitsRefillTooHigh>„Auffüllen ab“ liegt nicht unter der Höchstmenge.</RIH_LimitsRefillTooHigh>
+  <RIH_LimitsNoLimitTip>Ohne Werte gilt für diesen Eintrag keine Grenze, auch wenn eine Kategorie oder „Alle Gegenstände“ eine hat.</RIH_LimitsNoLimitTip>
+  <RIH_LimitsPickTitle>Gegenstand oder Kategorie wählen</RIH_LimitsPickTitle>
+  <RIH_LimitsNothingFound>Nichts gefunden.</RIH_LimitsNothingFound>
+</LanguageData>
