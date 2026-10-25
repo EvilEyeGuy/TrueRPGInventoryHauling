@@ -18,6 +18,8 @@
   <RIH_BuildFromOtherInventories>Material aus dem Inventar anderer Kolonisten holen</RIH_BuildFromOtherInventories>
   <RIH_BuildFromOtherInventoriesTip>Liegt auf der Karte nichts, holen Bauarbeiter Material aus dem Inventar anderer Kolonisten.</RIH_BuildFromOtherInventoriesTip>
   <RIH_LoadForConstruction>Für große Baustellen mehrere Stapel laden</RIH_LoadForConstruction>
+  <RIH_LoadForProcessors>Für Verarbeiter mehrere Stapel laden</RIH_LoadForProcessors>
+  <RIH_LoadForProcessorsTip>Trockengestelle, Fässer und andere Verarbeiter aus dem Processor Framework: Passt mehr als ein Handstapel hinein, füllt der Träger erst Inventar und Hände und befüllt dann alles auf einmal. Zutaten, die schon im Inventar sind, kommen direkt hinein.</RIH_LoadForProcessorsTip>
   <RIH_LoadForConstructionTip>Braucht eine Baustelle mehr als einen Stapel, füllt der Träger Inventar und Hände, bevor er losgeht, und liefert dann alles vor Ort ab.</RIH_LoadForConstructionTip>
   <RIH_HighlightHauled>Eingesammelte Gegenstände im Ausrüstungs-Tab markieren</RIH_HighlightHauled>
   <RIH_HighlightHauledTip>Goldener Rahmen im Grid von True RPG Inventory und gefärbter Ablegen-Knopf im Vanilla-Ausrüstungs-Tab für Gegenstände, die ins Lager gebracht werden.</RIH_HighlightHauledTip>

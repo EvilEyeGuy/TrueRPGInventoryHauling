@@ -61,6 +61,10 @@ Storage limits
 - Applies to all hauling, vanilla included. Items on the way to a storage count against its limit, so several haulers do not overfill it.
 - Each storage is counted at most once per tick, and full storages are skipped as a whole during storage searches.
 
+Mounts
+- With Giddy-Up 2: Bonded Mounts, a hauler riding an assigned mount with a pack harness fills the harness first, then the own inventory.
+- Unloading and deliveries to construction sites use the goods on the mount. If the mount waits at a hitching post, the hauler walks over and takes them.
+
 Performance
 - No work per tick. Trip planning only looks at items near the first one and caps the expensive storage searches per trip.
 

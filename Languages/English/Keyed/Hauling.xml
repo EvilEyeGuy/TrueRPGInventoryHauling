@@ -18,6 +18,8 @@
   <RIH_BuildFromOtherInventories>Take materials from the inventories of other colonists</RIH_BuildFromOtherInventories>
   <RIH_BuildFromOtherInventoriesTip>If nothing lies on the map, builders take materials out of the inventories of other colonists.</RIH_BuildFromOtherInventoriesTip>
   <RIH_LoadForConstruction>Load several stacks for large construction sites</RIH_LoadForConstruction>
+  <RIH_LoadForProcessors>Load several stacks for processors</RIH_LoadForProcessors>
+  <RIH_LoadForProcessorsTip>Drying racks, barrels and other processors from the Processor Framework: if one fills up with more than a hand stack, the hauler loads inventory and hands first and fills everything in one go. Ingredients already in the inventory go straight into the processor.</RIH_LoadForProcessorsTip>
   <RIH_LoadForConstructionTip>When a construction site needs more than one stack, the builder fills the inventory and the hands before walking over, then delivers everything on site.</RIH_LoadForConstructionTip>
   <RIH_HighlightHauled>Highlight hauled items in the gear tab</RIH_HighlightHauled>
   <RIH_HighlightHauledTip>Gold frame in the True RPG Inventory grid and tinted drop button in the vanilla gear tab for items that will be unloaded into storage.</RIH_HighlightHauledTip>

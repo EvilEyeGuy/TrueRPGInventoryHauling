@@ -4,4 +4,6 @@
   <RIH_UnloadInventory.reportString>lädt eingesammelte Gegenstände aus.</RIH_UnloadInventory.reportString>
   <RIH_LoadForConstruction.reportString>lädt TargetA für den Bau.</RIH_LoadForConstruction.reportString>
   <RIH_DeliverCargo.reportString>liefert TargetA an TargetB.</RIH_DeliverCargo.reportString>
+  <RIH_LoadForProcessor.reportString>lädt TargetA für TargetB.</RIH_LoadForProcessor.reportString>
+  <RIH_FillProcessorFromInventory.reportString>befüllt TargetA.</RIH_FillProcessorFromInventory.reportString>
 </LanguageData>

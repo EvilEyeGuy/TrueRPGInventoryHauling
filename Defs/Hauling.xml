@@ -73,4 +73,22 @@
     <carryThingAfterJob>true</carryThingAfterJob>
     <suspendable>false</suspendable>
   </JobDef>
+
+  <JobDef>
+    <defName>RIH_LoadForProcessor</defName>
+    <driverClass>RPGInventoryHauling.JobDriver_HaulToInventory</driverClass>
+    <reportString>loading TargetA for TargetB.</reportString>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <casualInterruptible>false</casualInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>RIH_FillProcessorFromInventory</defName>
+    <driverClass>RPGInventoryHauling.JobDriver_FillProcessorFromInventory</driverClass>
+    <reportString>filling TargetA.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <suspendable>false</suspendable>
+  </JobDef>
 </Defs>
